@@ -163,8 +163,10 @@ module.exports.api = function (inputFilePath, outputPath, escape, callback) {
 		".jpg": "image/jpeg",
 		".jpeg": "image/jpeg",
 		".bmp": "image/bmp",
-		".webp": "image/webp"
+		".webp": "image/webp",
+		".svg": "image/svg+xml",
 	}
+
 
 	var $ = cheerio.load(inputFile);
 	$('html').find('link').each(function () {
