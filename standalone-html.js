@@ -14,7 +14,8 @@ var imageTypes = {
 	".jpg": "image/jpeg",
 	".jpeg": "image/jpeg",
 	".bmp": "image/bmp",
-	".webp": "image/webp"
+	".webp": "image/webp",
+	".svg": "image/svg+xml",
 }
 
 function replaceScripts($, inputPath) {
